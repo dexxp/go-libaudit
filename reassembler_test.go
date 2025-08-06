@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/go-libaudit/v2/auparse"
+	"github.com/dexxp/go-libaudit/v2/auparse"
 )
 
 const maxSeq sequenceNum = 1<<32 - 1

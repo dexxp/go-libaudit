@@ -30,7 +30,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/elastic/go-libaudit/v2/auparse"
+	"github.com/dexxp/go-libaudit/v2/auparse"
 )
 
 const (
@@ -434,7 +434,7 @@ func (c *AuditClient) Close() error {
 			err = c.closeAndUnsetPid()
 		}
 
-		err = errors.Join(err, c.Netlink.Close())
+		err = fmt.Errorf("%w; %w", err, c.Netlink.Close())
 	})
 
 	return err

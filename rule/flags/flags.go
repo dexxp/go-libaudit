@@ -30,7 +30,7 @@ import (
 
 	"github.com/kballard/go-shellquote"
 
-	"github.com/elastic/go-libaudit/v2/rule"
+	"github.com/dexxp/go-libaudit/v2/rule"
 )
 
 // Parse parses an audit rule specified using flags. It can parse delete all

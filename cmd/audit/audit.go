@@ -31,8 +31,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/elastic/go-libaudit/v2"
-	"github.com/elastic/go-libaudit/v2/auparse"
+	"github.com/dexxp/go-libaudit/v2"
+	"github.com/dexxp/go-libaudit/v2/auparse"
 )
 
 var (

@@ -20,8 +20,8 @@ package flags_test
 import (
 	"testing"
 
-	. "github.com/elastic/go-libaudit/v2/rule"
-	"github.com/elastic/go-libaudit/v2/rule/flags"
+	. "github.com/dexxp/go-libaudit/v2/rule"
+	"github.com/dexxp/go-libaudit/v2/rule/flags"
 
 	"github.com/stretchr/testify/assert"
 )
